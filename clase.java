@@ -292,12 +292,6 @@ public class Main {
         JOptionPane.showMessageDialog(null, resultado);
     }
 
-    private static void solicitarIngresosPorFecha() {
-        String fechaConsulta = JOptionPane.showInputDialog("Ingrese la fecha de solicitud a consultar (dd/mm/aaaa):");
-
-        double ingresosTotales = empresa.calcularIngresosPorFecha(fechaConsulta);
-
-        JOptionPane.showMessageDialog(null, "Ingresos totales para la fecha " + fechaConsulta + ": " + ingresosTotales);
-    }
+    
 
 }
